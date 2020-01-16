@@ -57,7 +57,7 @@ class Car {
         rotate(this.dir.heading() - HALF_PI);
 
         rectMode(CENTER);
-        rect(0, 0, 30, 60);
+        rect(0, 0, 15, 30);
 
         pop();
     }

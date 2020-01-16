@@ -9,10 +9,10 @@ class Ray{
     }
 
     cast(wall) {
-        const x1 = wall.start.x;
-        const y1 = wall.start.y;
-        const x2 = wall.end.x;
-        const y2 = wall.end.y;
+        const x1 = wall.ax;
+        const y1 = wall.ay;
+        const x2 = wall.bx;
+        const y2 = wall.by;
     
         const x3 = this.pos.x;
         const y3 = this.pos.y;
